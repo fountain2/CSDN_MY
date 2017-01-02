@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keytouchtest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_tablet_android_light_green_600_48dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".onKeyTest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:theme="@style/Theme.AppCompat.Light.Dialog.MinWidth" android:name=".DialogActivity"></activity>
+    </application>
+
+</manifest>

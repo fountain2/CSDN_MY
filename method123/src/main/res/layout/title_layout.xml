@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#370281">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_back"
+        android:text="Back"
+        android:layout_marginBottom="3dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:text="user_home"
+        android:gravity="center"
+        android:textSize="27sp"
+        android:textColor="#ddd"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_more"
+        android:text="More"
+        android:layout_marginBottom="3dp"/>
+</LinearLayout>

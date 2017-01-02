@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String a="dd";
+        
         //动态修改App的icon mainfest中设置<activity-alias>
 //        mDefault=getComponentName();
 //        mBouble=new ComponentName(getBaseContext(),"com.example.fountian.csdn_my_code.Test1");
